@@ -79,16 +79,16 @@
 
 
 	
-	<scene name="scene_Panorama" title="Panorama" onstart="" thumburl="panos/Panorama.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_testing2Panorama" title="testing2Panorama" onstart="" thumburl="panos/testing2Panorama.tiles/thumb.jpg" lat="" lng="" heading="">
 		
 		<control bouncinglimits="calc:image.cube ? true : false" />
 
 		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
 
-		<preview url="panos/Panorama.tiles/preview.jpg" />
+		<preview url="panos/testing2Panorama.tiles/preview.jpg" />
 
 		<image>
-			<cube url="panos/Panorama.tiles/%s/l%l/%0v/l%l_%s_%0v_%0h.jpg" multires="512,640,1280,2560,5120,9984" />
+			<cube url="panos/testing2Panorama.tiles/%s/l%l/%0v/l%l_%s_%0v_%0h.jpg" multires="512,640,1280,2560,5120,9984" />
 		</image>
 
 	</scene>
